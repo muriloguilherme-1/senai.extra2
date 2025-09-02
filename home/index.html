@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>senaiflix - filmes e series</title>
+    <link rel="stylesheet" href="home.css".css">
+    <link rel="stylesheet" href="../assets/style/global.css">
+</head>
+<body>
+  <header class="cabesalho">
+    <a href="index.html">senaiflix</a>
+    <img id="menu-btn" class="hamburguer-menu" src="../assets/icons/material-symbols_menu (1).png" alt="">
+    <nav>
+        <a href="#">inicio</a>
+        <a href="#titulo-filmes"</a>
+        <a href="#titulo-series"></a>
+    </nav>
+    <nav class="menu-mobile" id="menu-mobile">
+        <a href="inicio"></a>
+        <a href="#titulo-filmes"></a>
+        <a href="titulo-series"></a>
+    </nav>
+
+  </header>  
+  <main>
+    <section class="banner">
+        <div class= "div-banner">
+        <h2>assistir agora</h2>
+        <p> ao saber que tem cancer, um professor passa a fabricar metanfetamina pelo futuro da familia, mudando o destino de todo,</p>
+    </div>
+    </section>
+    <div class="inputs">
+        <div class="pesquisa">
+            <label for="pesquisar">pesquisa por filmes e/ou series:</label>
+            <input type="placeholder="insira um titulo"
+            id="pesquisar"
+        </div>
+        <div class="filtro">
+            <label for="genero"> filtrar por genero:</label>
+            <select nome="genero" id="genero">
+                <option selected value=""> selecione genero</option>
+                <option value="drama">drama</option>
+                <option value="romance">romance</option>
+                <option value="terror">terror</option>
+                <option value="ficcao cientica">ficcao cientifica</option>
+                <option value="thriller">thriller</option>
+                <option value="comedia">comedia</option>
+                <option value="animacao">animacao</option>
+                <option value="aventura">aventura</option>
+                <option value="crime">crime</option>
+                <option value="fantasia">fantasia</option>
+                <option value="misterio">misterio</option>
+                <option value="sci-fi e fantasy">sci-fi e fantasy</option>
+            </select>
+            <button id="limpar filtro" class="limpar filtros">limpar filtros</button>
+    </div>
+    </div>
+    <section class="filmes series">
+        <h2 id="titulo-filmes">filmes</h2>
+        <div id="filmes container" class="card-container">
+            <a href="../detalhes-do-filme/index.html" class="card"></a>
+            <a href="../detalhes-do-filme/index.html" class="card"></a>
+            <a href="../detalhes-do-filme/index.html" class="card"></a>
+            <a href="../detalhes-do-filme/index.html" class="card"></a>
+            <a href="../detalhes-do-filme/index.html" class="card"></a>
+            <a href="../detalhes-do-filme/index.html" class="card"></a>
+        </div>
+    </section>
+    <section class="filmes series">
+        <h2 id="titulo-series">series</h2>
+        <div id="filmes container" class="card-container">
+            <a href="../detalhes-do-filme/index.html" class="card"></a>
+            <a href="../detalhes-do-filme/index.html" class="card"></a>
+            <a href="../detalhes-do-filme/index.html" class="card"></a>
+            <a href="../detalhes-do-filme/index.html" class="card"></a>
+            <a href="../detalhes-do-filme/index.html" class="card"></a>
+            <a href="../detalhes-do-filme/index.html" class="card"></a>
+        </div>
+    </section>
+    
+  </main>
+  <footer>
+    <p>sigam nas redes sociais
+        <div class="img">
+            <img src="../assets/imgs/mdi_twitter.svg" alt="logo do twitter">
+            <img src="../assets/imgs/ri_instagram-fill.svg" alt="logo do instagram">
+            <img src="../assets/imgs/mdi_youtube.svg" alt="logo youtube">
+
+    </div>
+    </p>
+  </footer>
+</body>
+ <script src="../scripts/script.js"></script>
+</html>

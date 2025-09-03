@@ -1,7 +1,13 @@
-//entrada
-const n1 =Number(prompt("digitar o primeiro numero"));
-const n2 =Number(prompt("digitar o segundo numero"));
-// processando 
-const soma = n1 + n2;
-//saida
-console.log('A soma e ${soma.toFixed(2)}')
+const nota = number (prompt("nota (0-100"));
+
+if (number.isNaN(nota)|| nota < 0 || nota > 100) {
+    console.log("nota invalida")
+} else if (nota < 60) {
+    console.log("reprovado")
+} else if (nota < 80) {
+    console.log("recuperacao")
+} else {
+    console.log("aprovado")
+} {
+    
+}

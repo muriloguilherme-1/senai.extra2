@@ -1,13 +1,8 @@
-const nota = number (prompt("nota (0-100"));
+const nums = [10,15,20,25,30];
+const Nums2 = nums.filter(n => n >= 20);
+console.log(Nums2);
 
-if (number.isNaN(nota)|| nota < 0 || nota > 100) {
-    console.log("nota invalida")
-} else if (nota < 60) {
-    console.log("reprovado")
-} else if (nota < 80) {
-    console.log("recuperacao")
-} else {
-    console.log("aprovado")
-} {
-    
-}
+const palavras = ["js", "html"];
+const maiusculo = palavras.map
+const mudar =["palavras"]
+console.log (palavras)
